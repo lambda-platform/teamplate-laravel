@@ -20,5 +20,10 @@
       }
     }
   },
-  "require": {}
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "Lambda\\Template\\Paper\\": "src"
+    }
+  }
 }
