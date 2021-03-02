@@ -10,8 +10,7 @@
 
     <title>{{ $title or 'Paper template' }}</title>
     <link href="{{$TemplateHelper->favicon}}" rel="icon"/>
-    <link rel="stylesheet"
-          href="/fonts/roboto/roboto.css?family=Roboto:400,300,100,100italic,300italic,400italic,700,700italic">
+    <link rel="stylesheet" href="/assets/lambda/fonts/roboto/roboto.css?family=Roboto:400,300,100,100italic,300italic,400italic,700,700italic">
     <link rel="stylesheet" href="{{ mix('assets/lambda/css/vendor.css') }}">
     <link rel="stylesheet" href="{{ mix('assets/lambda/css/paper.css') }}">
     @yield('meta')
